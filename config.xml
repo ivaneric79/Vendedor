@@ -15,7 +15,6 @@
 
       <feature name="http://api.phonegap.com/1.0/device" />
     <feature name="http://api.phonegap.com/1.0/battery"/>
-
 <feature name="http://api.phonegap.com/1.0/camera"/>
 <feature name="http://api.phonegap.com/1.0/contacts"/>
 <feature name="http://api.phonegap.com/1.0/file"/>
@@ -25,15 +24,8 @@
 <feature name="http://api.phonegap.com/1.0/notification"/>
 <plugin name="Storage" value="org.apache.cordova.Storage" />
 <plugin name="Capture" value="org.apache.cordova.Capture"/>
-<feature name="Geolocation">
-<param name="ios-package" value="CDVLocation" />
-</feature>
-<feature name="Geolocation">
-    <param name="android-package" value="org.apache.cordova.GeoBroker" />
-</feature>
 
-
-    <preference name="phonegap-version" value="2.9.0" />
+    <preference name="phonegap-version" value="2.7.0" />
     <preference name="orientation"      value="portrait" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="true" />
@@ -42,8 +34,6 @@
    
 <icon src="images/96.png" gap:platform="android" width="72" height="72" />
 <icon src="images/96.png" gap:platform="android" width="96" height="96" />
-<icon src="images/96.png" gap:platform="ios" width="96" height="96" />
-<icon src="images/96.png" gap:platform="ios" width="72" height="72" />
 
 
    

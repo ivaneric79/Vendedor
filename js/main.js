@@ -34,6 +34,12 @@ var myLatlng = new google.maps.LatLng(position.coords.latitude,position.coords.l
   
   
 	},false);
+
+	function onError(){
+		alert('code: '    + error.code    + '\n' +
+          'message: ' + error.message + '\n');
+
+	}; 
   
 }
 
@@ -422,7 +428,9 @@ $('#clientes').prev().show();
 
 	$('#enviarpedido').click(function() {
 	// body...
-	var stats = terminarpedido(server);
+alert('Pedido enviado.');
+
+	//var stats = terminarpedido(server);
 });
 
 /////////////// Guardar pedido
@@ -436,11 +444,12 @@ $('#clientes').prev().show();
 });
 
 
-	$('#ub').click(function(){
-		inicio();
-	});
+	
 
-
+$(document).delegate('#ubicacion', 'pageshow', function () {
+	inicio();
+	
+});
 
 
 

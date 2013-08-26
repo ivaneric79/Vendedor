@@ -25,7 +25,7 @@
 <plugin name="Storage" value="org.apache.cordova.Storage" />
 <plugin name="Capture" value="org.apache.cordova.Capture"/>
 
-    <preference name="phonegap-version" value="2.7.0" />
+    <preference name="phonegap-version" value="2.9.0" />
     <preference name="orientation"      value="portrait" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="true" />
@@ -34,6 +34,8 @@
    
 <icon src="images/96.png" gap:platform="android" width="72" height="72" />
 <icon src="images/96.png" gap:platform="android" width="96" height="96" />
+<icon src="images/96.png" gap:platform="ios" width="96" height="96" />
+<icon src="images/96.png" gap:platform="ios" width="72" height="72" />
 
 
    

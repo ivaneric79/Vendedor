@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.vendedor.pedidos"
+        version   = "0.0.1">
+    <name>Vendedor Móvil</name>
+
+    <description>
+       Vendedor Móvil
+    </description>
+
+    <author href="http://www.iwsoft.com.mx" email="ivaneric79@gmail.com">
+       JBandala
+    </author>
+
+      <feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="http://api.phonegap.com/1.0/battery"/>
+<feature name="http://api.phonegap.com/1.0/camera"/>
+<feature name="http://api.phonegap.com/1.0/contacts"/>
+<feature name="http://api.phonegap.com/1.0/file"/>
+<feature name="http://api.phonegap.com/1.0/geolocation"/>
+<feature name="http://api.phonegap.com/1.0/media"/>
+<feature name="http://api.phonegap.com/1.0/network"/>
+<feature name="http://api.phonegap.com/1.0/notification"/>
+<plugin name="Storage" value="org.apache.cordova.Storage" />
+<plugin name="Capture" value="org.apache.cordova.Capture"/>
+
+    <preference name="phonegap-version" value="2.7.0" />
+    <preference name="orientation"      value="portrait" />
+    <preference name="target-device"    value="universal" />
+    <preference name="fullscreen"       value="true" />
+
+  
+   
+<icon src="images/96.png" gap:platform="android" width="72" height="72" />
+<icon src="images/96.png" gap:platform="android" width="96" height="96" />
+
+
+   
+	
+	<access origin="*" subdomains="true" />
+</widget>

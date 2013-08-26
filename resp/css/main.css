@@ -1,0 +1,38 @@
+@media ( min-width: 200px ) {
+	/* Show the table header rows and set all cells to display: table-cell */
+	.my-custom-breakpoint td,
+	.my-custom-breakpoint th,
+	.my-custom-breakpoint tbody th,
+	.my-custom-breakpoint tbody td,
+	.my-custom-breakpoint thead td,
+	.my-custom-breakpoint thead th {
+		display: table-cell;
+		margin: 0;
+	}
+	/* Hide the labels in each cell */
+	.my-custom-breakpoint td .ui-table-cell-label,
+	.my-custom-breakpoint th .ui-table-cell-label {
+		display: none;
+	}
+}
+
+
+.cantidad{
+	width: 10%;
+	display: inline-block;
+}
+
+.producto{
+	width: 60%;
+	display: inline-block;
+}
+
+.precio{
+	
+	display: inline-block;
+}
+
+.hidden{display: none;}
+
+.derecha{float: right;}
+.clear{clear: both;}

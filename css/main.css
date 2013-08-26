@@ -1,0 +1,84 @@
+@media ( min-width: 200px ) {
+	/* Show the table header rows and set all cells to display: table-cell */
+	.my-custom-breakpoint td,
+	.my-custom-breakpoint th,
+	.my-custom-breakpoint tbody th,
+	.my-custom-breakpoint tbody td,
+	.my-custom-breakpoint thead td,
+	.my-custom-breakpoint thead th {
+		display: table-cell;
+		margin: 0;
+	}
+	/* Hide the labels in each cell */
+	.my-custom-breakpoint td .ui-table-cell-label,
+	.my-custom-breakpoint th .ui-table-cell-label {
+		display: none;
+	}
+}
+
+
+.cantidad{
+	min-width: 40px;
+    width: 6%;
+	display: inline-block;
+}
+
+.producto{
+	width: 50%;
+	display: inline-block;
+	font-size: 80%;
+}
+
+.precio{
+	font-size: 90%;
+	
+	display: inline-block;
+}
+
+.hidden{display: none !important;
+
+}
+
+.derecha{float: right;}
+.clear{clear: both;}
+
+.chead{
+	min-width: 40px;
+    width: 6%;
+	display: inline-block;
+}
+
+.phead{
+	width: 50%;
+	display: inline-block;
+}
+
+.prhead{
+	
+	display: inline-block;
+}
+
+.popcant{padding:10px;}
+
+.mas,.menos{margin:0 20px !important;}
+
+.cant{width: 10px !important;}
+
+.ltotal{
+	width: 75%;
+
+text-align: right;
+display: inline-block;
+}
+.total{
+	width: 19%;
+	display: inline-block;
+	
+
+}
+
+.okpedido{display: none;}
+
+.pagara{
+	max-width: 200px;
+}
